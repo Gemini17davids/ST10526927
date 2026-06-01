@@ -1,0 +1,234 @@
+p {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 26px;
+}
+h3{
+    color: rgb(17, 17, 56);
+    font-family:serif;
+    text-align: center;
+    font-size: xx-large;
+    border: transparent;
+}
+.logo{
+    font-size: 20px;
+}
+.bmw{
+    margin: 20px 850px;
+}
+h3:hover{
+    color: #ff0202;
+}
+h1{
+    text-shadow: 4px 4px rgb(57, 23, 206);
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    color: rgb(0, 0, 0);
+    border: transparent;
+    border-radius: 15px 25px;
+    background-color: darkblue;
+    justify-content: space-between;
+}
+ul li{
+    display:inline-table
+}
+ul li a{
+    color: rgb(255, 255, 255);
+    display: flex;
+    text-align: center;
+    font-size: 27px;
+    padding: 14px 15px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+ul li a:hover{
+    color: rgb(255, 0, 0);
+}
+body{
+    background-color: rgb(140, 0, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+  background-color: blue;
+  border: none;
+  border-radius: 29px;
+  color: rgb(255, 255, 255);
+  padding: 13px 29px;
+  text-align: center;
+  text-decoration: none;
+  font-size: xx-large;
+  display: inline-block;
+  font-size: 17px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+button:hover{
+    color: #ff0202;
+    box-shadow:0 10px 20px 0 rgba(0,0,0,0.8)
+}
+.v{
+    text-decoration: none;
+}
+.v:hover{
+    color: #ff0000;
+}
+.programs{
+    text-align: center;
+    font-size: x-large;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    margin: 2px 360px;
+    border: transparent;
+    background: radial-gradient(circle,hsl(207, 22%, 39%), #0C4A6E);
+    border-radius: 50px 35px;
+}
+.programs h3{
+    color: #000000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+.programs p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #000000;
+    font-size: large;
+}
+footer{
+    font-size: 20px;
+    border: transparent;
+    border-radius: 30px;
+    background-color: darkblue;
+}
+footer p{
+    font-size: medium;
+}
+footer a{
+    display: flex;
+}
+form{
+    border: 2px black solid;
+    border-radius: 15px 15px;
+    margin: 2px 650px;
+    padding: 70px 176px;
+    background-color: #888888;
+}
+form h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+form [type]{
+    border-radius: 10px;
+    size: 30px;
+    padding: 1px 20px;
+}
+.seven{
+    margin: 1px 58px;
+}
+.carl{
+    border: #ff0000 2px solid;
+    border-radius: 20px 20px;
+    background-color: #4e667a;
+}
+.e{
+   background-color: aquamarine;
+   border: 2px solid purple;
+   border-radius: 8px;
+   width: 45%;
+   padding: 12px 20px;
+}
+.flex-container a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px transparent;
+    border-radius: 2px;
+    margin: 15px 460px;
+}
+.image1{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px transparent;
+    border-radius: 2px;
+    margin: 15px 460px;
+}
+.image1:hover{
+    transform: scaleX(-1);
+
+}
+.gallery{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h5{
+    color: black;
+    font-size: larg;
+    font-family: cursive;
+}
+.box{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: serif;
+    border: 1px solid red;
+    border-radius: 32px 40px;
+    margin: 26px 18px;
+}
+.d1{
+    font-family: fantasy;
+    font-size: 19px;
+}
+img {
+  border-radius: 10px;
+}
+img:hover {
+  box-shadow: 0 0 3px 2px rgba(255, 1, 158, 0.5);
+}
+.vision{
+    border: transparent;
+    border-radius: 15px;
+    background: #0C4A6E;
+    padding: 130px 200px;
+    margin: 80px 470px;
+}
+.Mission{
+    border: transparent;
+    border-radius: 15px;
+    background: #0C4A6E;
+    padding: 130px 200px;
+    margin: 80px 470px;
+}
+.Offers{
+    border: transparent;
+    border-radius: 15px;
+    background: #0C4A6E;
+    padding: 130px 200px;
+    margin: 80px 470px;
+}
+iframe{
+    margin: 10px 630px;
+
+}
