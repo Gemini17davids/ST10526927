@@ -53,7 +53,7 @@ body{
     background-size: cover;
 }
 button{
-  background-color: blue;
+  background-color: rgb(46, 255, 57);
   border: none;
   border-radius: 29px;
   color: rgb(255, 255, 255);
@@ -85,6 +85,7 @@ button:hover{
     border: transparent;
     background: radial-gradient(circle,hsl(207, 22%, 39%), #0C4A6E);
     border-radius: 50px 35px;
+    box-shadow: #0b1013 10px 10px 5px 12px;
 }
 .programs h3{
     color: #000000;
