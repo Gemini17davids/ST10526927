@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 p {
   color: rgb(0, 0, 0);
   text-align: center;
@@ -25,12 +30,18 @@ h1{
     font-family: sans-serif;
 }
 header{
+    background: #111;
+    color: white;
+    padding: 20px 50px;
     display: flex;
-    color: rgb(0, 0, 0);
-    border: transparent;
-    border-radius: 15px 25px;
-    background-color: darkblue;
+    align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+header img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
 }
 ul li{
     display:inline-table
@@ -48,9 +59,10 @@ ul li a:hover{
     color: rgb(255, 0, 0);
 }
 body{
-    background-color: rgb(140, 0, 255);
-    background-repeat: no-repeat;
-    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(22, 13, 155);
+    color: #333;
+    line-height: 1.6;
 }
 button{
   background-color: rgb(46, 255, 57);
@@ -97,36 +109,111 @@ button:hover{
     color: #000000;
     font-size: large;
 }
-footer{
-    font-size: 20px;
-    border: transparent;
-    border-radius: 30px;
-    background-color: darkblue;
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 50px;
 }
-footer p{
-    font-size: medium;
+
+footer h2,
+footer h3 {
+    color: #d4af37;
+    margin-bottom: 15px;
 }
-footer a{
-    display: flex;
+
+footer a {
+    display: inline-flex;
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: #d4af37;
+}
+
+footer p {
+    margin-top: 10px;
+    color: #007bff;
 }
 form{
-    border: 2px black solid;
-    border-radius: 15px 15px;
-    margin: 2px 650px;
-    padding: 70px 176px;
-    background-color: #888888;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 form h4{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: x-large;
+    text-align: center;
+    font-size: 2rem;
+    color: #1a1a1a;
+    margin-bottom: 30px;
 }
-form [type]{
-    border-radius: 10px;
-    size: 30px;
-    padding: 1px 20px;
+form label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #444;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"]{
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 20px;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+form input:focus{
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0,123,255,0.2);
+}
+form input::placeholder{
+    color: #999;
 }
 .seven{
-    margin: 1px 58px;
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background: #007bff;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.seven:hover{
+    background: #0056b3;
+    transform: translateY(-2px);
+}
+
+.seven:active{
+    transform: translateY(0);
+}
+@media (max-width: 600px){
+
+form{
+    padding: 25px;
+}
+
+form h4{
+    font-size: 1.7rem;
+}
+
+form input{
+    padding: 12px;
+}
+
+.seven{
+    padding: 12px;
+}
 }
 .carl{
     border: #ff0000 2px solid;
@@ -139,12 +226,6 @@ form [type]{
    border-radius: 8px;
    width: 45%;
    padding: 12px 20px;
-}
-.flex-container a{
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .image{
     text-decoration: none;
@@ -230,6 +311,40 @@ img:hover {
     margin: 80px 470px;
 }
 iframe{
-    margin: 10px 630px;
+    margin: 20px 630px;
+}
+.map-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.map-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
 
+.map-container iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+    display: block;
+}
+@media (max-width: 768px) 
+{}
+    .map-container {
+    width: 95%;
+    border-radius: 15px;
+}
+.map-container iframe {
+    height: 350px;
+}
+
+@media (max-width: 480px) {
+    .map-container iframe {
+    height: 280px;
+}
 }
